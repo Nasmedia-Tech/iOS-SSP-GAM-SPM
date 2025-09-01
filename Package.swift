@@ -1,5 +1,4 @@
-// swift-tools-version: 5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version: 5.9
 
 import PackageDescription
 
@@ -9,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "AdMixerMediationGAM",
-            targets: ["AdMixerMediationGAM"]),
+            targets: ["iOS_SSP_GAM_SPM"]),
     ],
     dependencies: [
         // Google Mobile Ads SDK
@@ -25,14 +24,14 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "AdMixerMediationGAM",
+            name: "AdMixerMediationGAMBinary",
             url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationGAM1.0.1.xcframework.zip",
             checksum: "c1e486fed219f1a07b293679b8d0a8e244ed789b21c50276d9540560ec57087d"
         ),
         .target(
-            name: "iOS-SSP-GAM-SPM",
+            name: "iOS_SSP_GAM_SPM",
             dependencies: [
-                "AdMixerMediationGAM",
+                "AdMixerMediationGAMBinary",
                 .product(name: "GoogleMobileAds",
                          package: "swift-package-manager-google-mobile-ads"),
                 .product(name: "AdMixerMediation",
