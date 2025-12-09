@@ -14,19 +14,19 @@ let package = Package(
         // Google Mobile Ads SDK
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            exact: "11.3.0"
+            exact: "12.14.0"
         ),
         // SSP AdMixerMediation SDK
         .package(
             url: "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
-            from: "2.0.7"
+            from: "2.1.2"
         )
     ],
     targets: [
         .binaryTarget(
             name: "AdMixerMediationGAMBinary",
-            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationGAM1.0.1.xcframework.zip",
-            checksum: "c1e486fed219f1a07b293679b8d0a8e244ed789b21c50276d9540560ec57087d"
+            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationGAM1.0.2.xcframework.zip",
+            checksum: "4013c401ce6ecd4ae878325f0ecb0ba901db93e5153e0b1a4a869b46ad8b6939"
         ),
         .target(
             name: "iOS_SSP_GAM_SPM",

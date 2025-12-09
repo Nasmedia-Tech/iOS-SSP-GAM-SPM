@@ -1,13 +1,12 @@
 {
-  "originHash" : "364432e9cb7628ddf42c8aa60e7caf298b98cd14ae8b06cbb6e97eae5a6c38d3",
   "pins" : [
     {
       "identity" : "ios-ssp-mediation-spm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
       "state" : {
-        "revision" : "63d6f8692147bc7d57c2316e62f51a2a5fe669ba",
-        "version" : "2.0.7"
+        "revision" : "7d88a29230b46ebf7410678d5646649a6a0d7e52",
+        "version" : "2.1.2"
       }
     },
     {
@@ -15,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
       "state" : {
-        "revision" : "9ab66e38f5f0c2d02f2b024b1babd880130f19bf",
-        "version" : "11.3.0"
+        "revision" : "1239c23464503053c17d37ee5daa70de3455e9c8",
+        "version" : "12.14.0"
       }
     },
     {
@@ -29,5 +28,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }
