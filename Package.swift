@@ -14,7 +14,7 @@ let package = Package(
         // Google Mobile Ads SDK
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            "12.7.0"..<"13.8.0"
+            "12.7.0"..<"13.10.0"
         ),
         // SSP AdMixerMediation SDK
         .package(
